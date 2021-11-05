@@ -9,7 +9,7 @@ An extended CW721 (v0.9.2) with update, burn, freeze, set_minter functionalities
         token_id: String,
     }
     ```
-2. `update`
+2. `update` Updates token metadata
    ```
     Update {
         token_id: String,
