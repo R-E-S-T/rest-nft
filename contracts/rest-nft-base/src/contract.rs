@@ -41,8 +41,8 @@ pub fn execute(
         ExecuteMsg::Update {
             token_id,
             token_uri,
-            metadata,
-        } => execute_update(deps, env, info, token_id, token_uri, metadata),
+            extension,
+        } => execute_update(deps, env, info, token_id, token_uri, extension),
         // Freeze token metadata
         ExecuteMsg::Freeze {} => execute_freeze(deps, env, info),
 

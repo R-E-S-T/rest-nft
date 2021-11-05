@@ -49,7 +49,7 @@ pub enum ExecuteMsg {
     Update {
         token_id: String,
         token_uri: Option<String>,
-        metadata: Extension,
+        extension: Extension,
     },
 
     // Freeze token metadata

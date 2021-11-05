@@ -75,7 +75,7 @@ pub fn execute_update(
     info: MessageInfo,
     token_id: String,
     token_uri: Option<String>,
-    metadata: Extension,
+    extension: Extension,
 ) -> Result<Response, ContractError> {
     let cw721_contract = RestNFTContract::default();
     let minter = cw721_contract.minter.load(deps.storage)?;
@@ -94,7 +94,7 @@ pub fn execute_update(
         .update(deps.storage, &token_id, |token| match token {
             Some(mut token_info) => {
                 token_info.token_uri = token_uri;
-                token_info.extension = metadata;
+                token_info.extension = extension;
                 Ok(token_info)
             }
             None => return Err(ContractError::TokenNotFound {}),

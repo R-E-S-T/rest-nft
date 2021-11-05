@@ -164,7 +164,7 @@ mod tests {
         let exec_msg = ExecuteMsg::Update {
             token_id: token_id.to_string(),
             token_uri: Some("https://moon.com".to_string()),
-            metadata: Some(Metadata {
+            extension: Some(Metadata {
                 image: None,
                 image_data: None,
                 external_url: None,
@@ -192,7 +192,7 @@ mod tests {
         let exec_msg = ExecuteMsg::Update {
             token_id: token_id.to_string(),
             token_uri: Some("https://moonit.com".to_string()),
-            metadata: Some(Metadata {
+            extension: Some(Metadata {
                 image: None,
                 image_data: None,
                 external_url: None,
@@ -253,7 +253,7 @@ mod tests {
         let exec_msg = ExecuteMsg::Update {
             token_id: token_id.to_string(),
             token_uri: Some("https://moonit.com".to_string()),
-            metadata: Some(Metadata {
+            extension: Some(Metadata {
                 image: None,
                 image_data: None,
                 external_url: None,
@@ -315,7 +315,7 @@ mod tests {
         let exec_msg = ExecuteMsg::Update {
             token_id: token_id.to_string(),
             token_uri: Some("https://moonit.com".to_string()),
-            metadata: Some(Metadata {
+            extension: Some(Metadata {
                 image: None,
                 image_data: None,
                 external_url: None,
