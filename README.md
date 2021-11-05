@@ -32,6 +32,6 @@ An extended CW721 (v0.9.2) with update, burn, freeze, set_minter functionalities
 
 ## Usage
 
-Contracts are used for by all REST-verse NFTs (tadpoles, toads).
+Contract are used for by all [REST-verse](http://redeyedspacetoads.io) NFTs (tadpoles, toads).
 It supports a mint, burn, update and freeze launch mechanic.
 
