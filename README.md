@@ -14,7 +14,7 @@ An extended CW721 (v0.9.2) with update, burn, freeze, set_minter functionalities
     Update {
         token_id: String,
         token_uri: Option<String>,
-        metadata: Extension,
+        extension: Extension,
     }
    ```
 3. `freeze`
