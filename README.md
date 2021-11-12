@@ -46,3 +46,8 @@ pub struct Config {
 Contract are used for by all [REST-verse](http://redeyedspacetoads.io) NFTs (tadpoles, toads).
 It supports a mint, burn, update and freeze launch mechanic.
 
+
+## References
+
+- https://github.com/collectxyz/collectxyz-nft-contract
+- https://github.com/CosmWasm/cw-nfts
